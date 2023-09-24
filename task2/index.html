@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Chocolate Pack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="chocolateForm">
+        <h1>Custom Chocolate Pack</h1>
+
+        <div class="chocolate-item">
+            <input type="checkbox" class="chocolate" value="Dark Chocolate" data-quantity="1" id="darkChocolate">
+            <label for="darkChocolate">
+                Dark Chocolate ($2.50)
+                <div class="quantity-container">
+                  
+                   Quantity: <input type="number" class="quantity" value="0" min="0" max="8">
+                </div>
+            </label>
+        </div>
+        <div class="chocolate-item">
+            <input type="checkbox" class="chocolate" value="Milk Chocolate" data-quantity="1" id="milkChocolate">
+            <label for="milkChocolate">
+                Milk Chocolate ($2.00)
+                <div class="quantity-container">
+=                    Quantity: <input type="number" class="quantity" value="0" min="0" max="8">
+                </div>
+            </label>
+        </div>
+        <div class="chocolate-item">
+            <input type="checkbox" class="chocolate" value="White Chocolate" data-quantity="1" id="whiteChocolate">
+            <label for="whiteChocolate">
+                White Chocolate ($2.75)
+                <div class="quantity-container">
+                    
+                    Quantity: <input type="number" class="quantity" value="0" min="0" max="8">
+                </div>
+            </label>
+        </div>
+        <div class="chocolate-item">
+            <input type="checkbox" class="chocolate" value="Caramel Filled Chocolate" data-quantity="2" id="caramelChocolate">
+            <label for="caramelChocolate">
+                Caramel Filled Chocolate ($3.00)
+                <div class="quantity-container">
+                    <strong
+                    > Quantity:</strong>  <input type="number" class="quantity" value="0" min="0" max="8">
+                </div>
+            </label>
+        </div>
+        <div class="chocolate-item">
+            <input type="checkbox" class="chocolate" value="Nuts and Caramel Chocolate" data-quantity="2" id="nutsChocolate">
+            <label for="nutsChocolate">
+                Nuts and Caramel Chocolate ($3.50)
+                <div class="quantity-container">
+                    Quantity: <input type="number" class="quantity" value="0" min="0" max="8">
+                </div>
+            </label>
+        </div>
+        <div class="chocolate-item">
+            <input type="checkbox" class="chocolate" value="Nuts and Caramel Chocolate" data-quantity="2" id="nutsChocolate">
+            <label for="nutsChocolate">
+                Nuts and Caramel Chocolate ($3.50)
+                <div class="quantity-container">
+                    Quantity: <input type="number" class="quantity" value="0" min="0" max="8">
+                </div>
+            </label>
+        </div>
+        <div class="chocolate-item">
+            <input type="checkbox" class="chocolate" value="Nuts and Caramel Chocolate" data-quantity="2" id="nutsChocolate">
+            <label for="nutsChocolate">
+                Nuts and Caramel Chocolate ($3.50)
+                <div class="quantity-container">
+                    Quantity: <input type="number" class="quantity" value="0" min="0" max="8">
+                </div>
+            </label>
+        </div>
+        <div class="chocolate-item">
+            <input type="checkbox" class="chocolate" value="Nuts and Caramel Chocolate" data-quantity="2" id="nutsChocolate">
+            <label for="nutsChocolate">
+                Nuts and Caramel Chocolate ($3.50)
+                <div class="quantity-container">
+                    Quantity: <input type="number" class="quantity" value="0" min="0" max="8">
+                </div>
+            </label>
+        </div>
+        
+        
+        <button type="submit">Submit</button>
+        <p class="total-container">Total Price: <span id="totalPrice">$0.00</span></p>
+
+    </form>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

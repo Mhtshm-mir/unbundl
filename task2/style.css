@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+}
+form{
+    background-color: rgb(206, 225, 241);
+    width: 40vw;
+    border-radius: 10px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-left: 500px;
+}
+h1{
+    font-size: 30px;
+}
+label{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+button{
+    background-color: rgb(26, 25, 25);
+    width: 200px;
+    color: white;
+    font-size: 15px;
+    
+    height: 50px;
+    border: none;
+
+}
+button:hover{
+    background-color: rgb(37, 78, 119);
+}
+.chocolate-item {
+    margin-bottom: 20px;
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+;}
+
+.chocolate-item label {
+    display: block;
+}
+
+.quantity {
+    display: none;
+}
+
+.quantity-container {
+    display: none;
+    margin-top: 5px;
+}
+
+input[type="checkbox"]:checked + label .quantity-container {
+    display: block;
+}
+
+.total-container {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .chocolate-item {
+        margin-bottom: 10px;
+    }
+    
+    .quantity-container {
+        margin-top: 2px;
+    }
+}
+
+@media (max-width: 576px) {
+    .chocolate-item label {
+        font-size: 16px;
+    }
+    
+    .quantity-container {
+        margin-top: 1px;
+    }
+}
